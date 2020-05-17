@@ -58,8 +58,6 @@ def main():
     main_subreddit = config['SETTINGS']['main_subreddit']
     target_subreddits = config['SETTINGS']['target_subreddits']
     target_subreddits = [x.strip() for x in target_subreddits.split(',')]
-    print(target_subreddits)
-    quit()
     send_replies = config['SETTINGS'].getboolean('send_replies')
     crosspost = config['SETTINGS'].getboolean('crosspost')
     test_mode = config['SETTINGS'].getboolean('test_mode')
