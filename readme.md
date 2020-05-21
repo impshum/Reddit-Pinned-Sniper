@@ -9,13 +9,16 @@ Reposts or crossposts pinned submissions from chosen subreddits
 -   Edit conf.ini with your details
 -   Run it `python run.py`
 
-#### Settings Info
+### Settings Info
 
 -   `main_subreddit` - Subreddit to post to
 -   `target_subreddits` - Subreddits to search for pinned submissions (comma separated)
 -   `crosspost` - Crosspost or repost (on = crosspost)
 -   `send_replies` - Send comment replies to inbox from new submission
 -   `test_mode` - Runs the bot without posting
+
+```main_subreddit``` is the sub you want to post to.   
+```target_subreddits``` are the subs you want to get data from.
 
 #### Tip
 
